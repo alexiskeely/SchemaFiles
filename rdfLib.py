@@ -33,7 +33,7 @@ worktypes = 'https://raw.githubusercontent.com/russianArchitecture-uwLibraries/b
 
 #%%
 g = rdflib.Graph()
-g.load(agents, format='turtle')
+g.load(places, format='turtle')
 prop_list = []
 
 for prop in g.predicates(subject=None, object=None):
@@ -60,6 +60,5 @@ vra_onto.load()
 
 #%%
 
-print(fetch_uri('http://schema.org/Place.rdf'))
 
 
