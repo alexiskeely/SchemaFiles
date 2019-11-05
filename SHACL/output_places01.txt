@@ -1,0 +1,2301 @@
+Validation Report
+Conforms: False
+Results (383):
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#IzhmaArkhangelskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#KhoroshevskiiraionMoskovskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#PetrovoDalneeMoskovskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#MikhailovskoeMoskovskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#ShilkaChitinskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#TatarstanRespublika>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#TutaevskiiraionIaroslavskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#BaklankaSouthwestVologodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#Solikamsk>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#VerkhneuralskiiraionCheliabinskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#Birobidzhan>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#Komsomolskiiraion>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#BogoliubovoVladimirskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#DolgoprudnyiMoskovskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#VerkhneuralskCheliabinskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#MagnitogorskCheliabinskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#LeningradskaiaoblastLeningradskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#KirillovVologodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#PodolskAreaMoskovskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#Alekseevskoe>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#IrkutskaiaoblastIrkutskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#MikhailovskaiaArkhangelskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#ZlatoustCheliabinskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#Iskor>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#SolovetskiiArkhangelskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#NikolskaiaVologodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#Khabarovskiiraion>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#IrkutskiiraionIrkutskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#TorzhokskiiraionTverskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#Tabaga>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#TiumenTiumenskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#AfonasovoVologodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#AndreevskaiaVologodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#Petrozavodsk>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#RzhevTverskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#KonevoArkhangelskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#SaminskiiPogostVologodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#ZelenoborskiiMurmanskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#IurevPolskiiVladimirskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#LvovkaNizhegorodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#BerezonavolokArkhangelskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#NovgorodskaiaoblastNovgorodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#IazNizhegorodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#TotemskiiraionVologodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#StupinskiiraionMoskovskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#DubrovitsyMoskovskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#TroitskCheliabinskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#Ussuriisk>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#TabagaArea>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#BurtsevoVologodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#MoskovskaiaoblastMoskovskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#LutovinovoTulskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#TiumenskaiaoblastTiumenskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#TaraOmskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#TroitskoeVologodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#ButovoMoskovskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#Evreiskaiaavtonomnaiaoblast>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#TobolskiiraionTiumenskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#KolomenskiiraionMoskovskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#StaritskiiraionTverskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#SheksninskiiraionVologodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#KuznetskoeCheliabinskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#VozhegodskiiraionVologodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#SemenkovoVologodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#Selenginskiiraion>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#MarfinoMoskovskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#DorogorskoeArkhangelskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#MartsialnyeVody>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#Tankeevka>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#Kemskiiraion>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#KharinoCheliabinskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#LeningradskiiraionMoskovskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#IakhromaMoskovskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#NefedovskaiaVologodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#SemenovskaiaArkhangelskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#GorodnianaVolgeTverskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#ViazhishchiNovgorodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#GorodniaMoskovskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#BolshoeBoldinoNizhegorodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#ArgunovskoeArkhangelskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#SokolskiiraionVologodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#PolivanovoMoskovskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#NikolskoeUriupinoMoskovskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#PetrogradskiiraionLeningradskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#PokrovskoeVologodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#DmitrovskoeMoskovskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#BorovskKaluzhskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#MalyeKorelyArkhangelskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#Morozovitsa/PukhovoVologodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#KargopolskiiraionArkhangelskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#KovdaMurmanskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#KotlasArkhangelskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#IaropoletsMoskovskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#GorenkiMoskovskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#KolomnaMoskovskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#Laishevskiiraion>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#VelikiiUstiugVologodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#VozhegaVologodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#Verkhneuslonskiiraion>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#Spasskiiraion>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#IurevPolskiiraionVladimirskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#ChitinskaiaoblastChitinskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#Primorskiikrai>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#Bolgar>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#ZaokskiiraionTulskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#ArkhangelskArkhangelskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#VladimirVladimirskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#ChitaChitinskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#NerchinskChitinskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#VladimirskaiaoblastVladimirskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#SlobodaVologodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#PervomaiskiiMoskovskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#PogostArkhangelskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#OstrovskaiaArkhangelskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#VerkhovazhskiiraionVologodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#CheliabinskaiaoblastCheliabinskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#RostovskoeArkhangelskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#Tetiushskiiraion>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#BeregArkhangelskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#GorkaPokrovskoeVologodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#MytishchinskiiraionMoskovskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#KareliaRespublika>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#KozokhtaVologodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#KasliCheliabinskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#StaroNikolskoeMoskovskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#AginskoeChitinskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#SmolenskaiaoblastSmolenskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#ArkhangelskoeMoskovskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#SuzdalskiiraionVladimirskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#ArkharinskiraionAmurskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#CheliabinskCheliabinskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#NizhniiUslon>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#SmetaninoVologodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#KurilovoVologodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#NearIakutsk>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#Lokhta/ShurovoVologodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#PrilukiVologodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#Vladimirovka>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#IngalyOmskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#PeresekinoNizhegorodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#TulaTulskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#DmitrovskiiraionMoskovskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#ChudovskiiraionLeningradskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#Medvezhegorskiiraion>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#Laishevo>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#SyrostanCheliabinskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#PodgorniaArea>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#NizhniiNovgorodNizhegorodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#TarbagataiAreaChitinskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#UsoleSibirskoeIrkutskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#AmurskaiaoblastAmurskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#StaritsaTverskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#BorovinaVologodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#UstKudaIrkutskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#ListviankaIrkutskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#Perm>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#Kondopozhskiiraion>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#Chistopolskiiraion>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#Obluche>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#VologodskiiraionVologodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#NelazskoeVologodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#UstKubinskiiraionVologodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#Elabuga>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#BlagoveshchenskAmurskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#KargopolArkhangelskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#UlanUde>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#PrilukArkhangelskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#Obluchenskiiraion>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#OstrovRusskii>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#IaroslavskiiraionIaroslavskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#MezenskiiraionArkhangelskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#KaluzhskaiaoblastKaluzhskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#NaroFominskiiraionMoskovskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#BerezhnaiaDubrovaArkhangelskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#NovgorodNovgorodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#KrasnogorskraionMoskovskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#MuksalmaArkhangelskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#KandalakshskiiraionMurmanskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#VologodskaiaoblastVologodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#VashkinskiiraionVologodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#RuzskiiraionMoskovskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#Vladivostok>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#ParfentevoMoskovskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#Kondopoga>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#AntsiferovskaiaVologodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#UglichskiiraionIaroslavskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#OliushinoVologodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#Khabarovskiikrai>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#Konchezero>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#DiadinoIrkutskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#KyshtymCheliabinskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#VoronovoMoskovskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#SakhaRespublika>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#Atninskiiraion>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#TsarevoVologodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#Vysokogorskiiraion>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#BelozerskVologodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#ApraksinoNizhegorodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#VasileostrovskiiraionLeningradskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#BolsherechenskiiraionOmskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#ZnamenkaNizhegorodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#AmazarChitinskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#KharlushiCheliabinskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#DmitrievskoeVologodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#ZelenogradMoskovskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#Arsk>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#VladimirovkaArea>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#NikiforovoArkhangelskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#TverskaiaoblastTverskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#NikolskoeVologodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#UstiuzhnaVologodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#Tsarevichi>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#UrikIrkutskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#BronnitsyMoskovskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#PeschanitsaArkhangelskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#NerchinskiiraionChitinskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#PrimorskiiraionArkhangelskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#Buinskiiraion>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#TudozerskiiPogostVologodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#Markha>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#BolshoeBoldinoAreaNizhegorodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#CharomskoeVologodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#Zelenodolskiiraion>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#Nanaiskiiraion>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#TelmaIrkutskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#Elabuzhskiiraion>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#DanilovskoeVologodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#MurmanskaiaoblastMurmanskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#LeninskiiraionMoskovskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#MorozovitsaVologodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#RamenskiiraionMoskovskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#PopovkaKalikinskaiaVologodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#BolshaiaKondratovskaiaArkhangelskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#VytegraVologodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#PaltogaVologodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#PodiachevoMoskovskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#CheremkhovskiiraionIrkutskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#MarkovskaiaArkhangelskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#AnkhimovoVologodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#EdomaVologodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#ChadromaArkhangelskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#MalyeKarmaly>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#GriazovetsVologodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#TsipinoVologodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#VerkhovazheVologodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#OlgovoMoskovskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#Iakutsk>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#KrasnaiaLiagaArkhangelskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#Kazan>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#VelskArkhangelskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#UboryMoskovskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#GoritsyVologodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#OekIrkutskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#GoraSekirnaiaArkhangelskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#Troitskoe>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#VelikiiNovgorodNovgorodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#GusinoeOzero>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#KuzomenMurmanskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#ViazemskiiraionSmolenskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#SuzdalVladimirskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#SaintPetersburgLeningradskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#GorkaArkhangelskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#KotlasskiiraionArkhangelskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#BelousovoArkhangelskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#VarzugaMurmanskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#GubernskoeCheliabinskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#ValuevoMoskovskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#Pribaikalskiiraion>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#SolovetskiiraionArkhangelskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#BolshoiZaiatskiiOstrovArkhangelskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#EreminskaiaVologodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#AlbinoMoskovskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#SelivanovoArkhangelskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#VysokaiaGora/Rozhdestvenskoe>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#SukhanovoMoskovskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#MoscowMoskovskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#KhmelitaSmolenskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#EvgashchinoOmskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#Kem>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#VelikiiNovgorodAreaNovgorodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#SeredniaiaArkhangelskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#NilovkaNizhegorodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#ShkinMoskovskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#PlesetskiiraionArkhangelskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#SergeevkaNizhegorodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#Tetiushi>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#VytegorskiiraionVologodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#Sviiazhsk>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#FerapontovoVologodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#DubrovkaCheliabinskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#TobolskTiumenskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#IstraMoskovskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#BorovskiiraionKaluzhskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#UkhtaArkhangelskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#Cherdyn>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#NovgorodskiiraionNovgorodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#Alekseevskiiraion>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#VologdaVologodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#TriOzera>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#NizhegorodskaiaoblastNizhegorodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#BolsherecheOmskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#OmskaiaoblastOmskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#KudaIrkutskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#OstrovVologodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#Ivolginskiiraion>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#Kiakhta>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#GoshaVologodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#BabushkinskiiraionVologodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#BatranVologodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#KulleKimi>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#KirillovskiiraionVologodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#BolsheboldinskiiraionNizhegorodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#TulskaiaoblastTulskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#NovomikhailovskoeMoskovskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#KonakovskiiraionTverskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#CherepovetskiiraionVologodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#SolvychegodskArkhangelskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#GriazovetskiiraionVologodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#LiadinyKiselevskaiaArkhangelskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#KimzhaArkhangelskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#Shelanga>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#BolshoiKhaluiArkhangelskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#Chistopol>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#UmbaMurmanskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#TotmaVologodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#PodmoklovoMoskovskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#NikolskoeMoskovskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#Kiakhtinskiiraion>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#BelozerskiiraionVologodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#KamskoUstinskiiraion>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#TiumenskiiraionTiumenskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#VelikoustiugskiiraionVologodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#Kabanskiiraion>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#Kshkar>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#KhotiazhNovgorodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#UstiuzhenskiiraionVologodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#BereznikArkhangelskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#ChekhovskiiraionMoskovskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#Mianselga>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#Arskiiraion>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#RaekTverskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#VasilevoTverskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#BuriatiiaRespublika>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#Novoselenginsk>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#PatrovskaiaTikhmangaArkhangelskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#FilimonkiMoskovskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#OshevenskArkhangelskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#IstrinskiiraionMoskovskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#TroitskoeMoskovskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#KomsomolsknaAmure>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#VerkhniaiaUftiugaArkhangelskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#BabaevskiiraionVologodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#AndomskiiPogostVologodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#DuldurgaAreaChitinskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#TarskiiraionOmskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#Khabarovsk>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#TerskiiraionMurmanskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#OmskOmskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#KidekshaVladimirskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#IrkutskIrkutskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#Pokcha>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#LeninskiiraionTulskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#BolshaiaShalgaArkhangelskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#StaroeBobrenevoMoskovskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#TorzhokTverskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#UsolskiiraionIrkutskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#KichmengskoGorodetskiiraionVologodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#LunevoVologodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#KozlovskoeArkhangelskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#BekhovoTulskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#BykovoMoskovskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#OlarevoVologodskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#NizArkhangelskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#FedkovoArkhangelskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#Korba>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#OstafevoMoskovskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#KazachiiAmurskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#VolokolamskiiraionMoskovskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: schema:geoShape
+	Focus Node: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/places#AbalakTiumenskaia>
+	Result Path: schema:geo
+	Message: Resource contains multple geo-coordinate sets.
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:message Literal("Dataset contains duplicate entities") ; sh:path [ sh:inversePath owl:sameAs ] ]
+	Focus Node: <http://dbpedia.org/resource/Veliky_Novgorod>
+	Result Path: [ sh:inversePath owl:sameAs ]
+	Message: Dataset contains duplicate entities
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:message Literal("Dataset contains duplicate entities") ; sh:path [ sh:inversePath owl:sameAs ] ]
+	Focus Node: <http://dbpedia.org/resource/Kargopolsky_District>
+	Result Path: [ sh:inversePath owl:sameAs ]
+	Message: Dataset contains duplicate entities
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:message Literal("Dataset contains duplicate entities") ; sh:path [ sh:inversePath owl:sameAs ] ]
+	Focus Node: <http://dbpedia.org/resource/Uglich>
+	Result Path: [ sh:inversePath owl:sameAs ]
+	Message: Dataset contains duplicate entities
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:message Literal("Dataset contains duplicate entities") ; sh:path [ sh:inversePath owl:sameAs ] ]
+	Focus Node: <http://dbpedia.org/resource/Mezen,_Mezensky_District,_Arkhangelsk_Oblast>
+	Result Path: [ sh:inversePath owl:sameAs ]
+	Message: Dataset contains duplicate entities

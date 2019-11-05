@@ -1,0 +1,27 @@
+Validation Report
+Conforms: False
+Results (4):
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:message Literal("Dataset contains duplicate entities") ; sh:path [ sh:inversePath owl:sameAs ] ]
+	Focus Node: <http://dbpedia.org/resource/Veliky_Novgorod>
+	Result Path: [ sh:inversePath owl:sameAs ]
+	Message: Dataset contains duplicate entities
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:message Literal("Dataset contains duplicate entities") ; sh:path [ sh:inversePath owl:sameAs ] ]
+	Focus Node: <http://dbpedia.org/resource/Kargopolsky_District>
+	Result Path: [ sh:inversePath owl:sameAs ]
+	Message: Dataset contains duplicate entities
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:message Literal("Dataset contains duplicate entities") ; sh:path [ sh:inversePath owl:sameAs ] ]
+	Focus Node: <http://dbpedia.org/resource/Uglich>
+	Result Path: [ sh:inversePath owl:sameAs ]
+	Message: Dataset contains duplicate entities
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:message Literal("Dataset contains duplicate entities") ; sh:path [ sh:inversePath owl:sameAs ] ]
+	Focus Node: <http://dbpedia.org/resource/Mezen,_Mezensky_District,_Arkhangelsk_Oblast>
+	Result Path: [ sh:inversePath owl:sameAs ]
+	Message: Dataset contains duplicate entities

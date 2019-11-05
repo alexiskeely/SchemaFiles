@@ -1,0 +1,213 @@
+
+@base <https://www.lib.washington.edu/static/public/cams/data/datasets/uwSemWebParts/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix bf1: <http://bibframe.org/vocab/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dpla: <http://dp.la/about/map/> .
+@prefix ex: <http://example.org/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix http: <http://www.w3.org/2011/http#> .
+@prefix ldproc: <https://doi.org/10.6069/uwlib.55.b.2#> .
+@prefix library: <http://purl.org/library/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix plat: <https://doi.org/10.6069/uwlib.55.d.2#> .
+@prefix rel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix uwext: <http://faculty.washington.edu/tgis/ld/brumfield/uwDataset/extensions#> .
+@prefix uwprop: <https://doi.org/10.6069/uwlib.55.d.3#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix vra: <http://purl.org/vra/> .
+@prefix wgs84: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix dash: <http://datashapes.org/dash#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+### vocabulary Node shapes
+
+
+
+vra:AgentShape
+    a sh:NodeShape ;
+    sh:closed false ;
+    sh:property vra:NameShape ;
+    sh:property [
+    sh:path vra:creativeActivity ;
+    sh:targtNode vra:Event ;] .
+
+vra:PersonShape
+    a sh:NodeShape ; 
+    sh:class vra:Person ;
+    sh:and (
+    vra:AgentShape 
+    [
+        
+        sh:path vra:birthDate ;
+#        sh:datatype xsd:date ;
+        sh:lessThanOrEquals vra:deathDate ;
+        sh:minCount 0 ;
+        sh:maxCount 1 ;
+        sh:message "wrong datatype!" 
+    ] 
+    [
+        sh:path vra:deathDate ;
+#        sh:datatype xsd:date ;
+        sh:minCount 0 ;
+        sh:maxCount 1 ;
+        sh:message "wrong datatype!" 
+    ] )
+   .
+
+
+edm:Agent
+    a sh:NodeShape ;
+    sh:targetClass edm:Agent ;
+    
+    sh:property [
+        
+        sh:path skos:prefLabel ;
+        sh:minCount 0 ;
+        sh:maxCount 1 ;
+        sh:message "too many preferred labels!"
+    ] ;
+    sh:property [
+        
+        sh:path dpla:providedLabel ;
+        sh:minCount 0 ;
+        sh:maxCount 1 ;
+        sh:message "too many provided labels!"
+    ] ;
+    sh:property [
+        
+        sh:path skos:note ;
+        sh:minCount 0 ;
+        sh:maxCount 1 ;
+        sh:message "too many notes!"
+    ] ;
+    sh:property [
+        sh:path skos:inSchema ;
+        sh:minCount 0 ;
+        sh:maxCount 1 ;
+    ] ;
+    sh:property [
+        
+        sh:path skos:exactMatch ;
+        sh:minCount 0 ;
+        sh:maxCount 1 ;
+    ] ;
+   sh:property [
+        sh:path skos:closeMatch ;
+        sh:minCount 0 ;
+        sh:maxCount 1 ;
+    ] .
+
+vra:EventShape
+    a sh:NodeShape;
+    sh:targetClass vra:Event;
+    sh:property [
+        
+        sh:path vra:startDate;
+        sh:lessThanOrEquals vra:endDate ;
+#        sh:datatype xsd:date ;    
+        sh:maxCount 1 ;
+    ] ;
+    sh:property [
+        
+        sh:path vra:endDate;
+#        sh:datatype xsd:date ;    
+        sh:maxCount 1 ;
+    
+    ]  ;
+    sh:property [
+    
+    sh:path [sh:inversePath vra:creativeActivity] ;
+    
+    ] .
+
+
+
+
+
+
+ex:Indentifer
+     a sh:NodeShape ;
+    sh:closed true ;
+    sh:targetObjectsOf owl:sameAs ;
+    sh:nodeKind sh:IRI ; 
+    sh:property [
+    sh:path [sh:inversePath owl:sameAs] ;
+    sh:maxCount 1;
+    sh:message "Dataset contains duplicate entities"
+    
+    ] .
+
+
+
+
+ex:DummyNodeShape
+    a sh:NodeShape  ;
+    sh:closed false ;
+    sh:targetClass edm:Agent ;
+    sh:property dc:IsReferencedBy .
+
+##path shapes
+
+
+dc:IsReferencedBy 
+ 	a sh:PropertyShape ;
+    sh:path dct:isReferencedBy ;
+    sh:NodeKind sh:IRI .
+
+dc:DescriptionsShape
+ 	a sh:PropertyShape ;
+    
+    sh:path dct:description .
+
+vra:NameShape
+ 	a sh:PropertyShape ;
+    sh:path vra:name ;
+    sh:NodeKind sh:literal .    
+
+schema:URLShape
+ 	a sh:PropertyShape ;
+    
+    sh:path schema:url ;
+    sh:NodeKind sh:IRI .
+
+
+
+
+rdfs:Labelshape
+ 	a sh:PropertyShape ;
+    sh:path rdfs:label ;
+    sh:NodeKind sh:Literal .
+
+
+skos:AltLabelShape
+ 	a sh:PropertyShape ;
+    
+    sh:path skos:altLabel ;
+    sh:NodeKind sh:Literal.
+
+void:InDataShape
+ 	a sh:PropertyShape ;
+    
+    sh:path void:inDataset ;
+    sh:targetClass void:Dataset .
+
+ex:ExamplePropertyShape
+	a sh:PropertyShape ;
+	sh:path rdfs:label ;
+	sh:description "We need at least one label value" ;
+	sh:minCount 3 .
+
+
+
