@@ -5,7 +5,7 @@ Created on Fri Nov  1 09:12:38 2019
 @author: alexis
 """
 #!/usr/bin/env python
-## 
+#%%
 from rdflib import Graph, Namespace, XSD, RDF, URIRef
 from typing import Optional
 import requests
@@ -40,7 +40,7 @@ prop_list = []
 for prop in g.predicates(subject=None, object=None):
     prop_list.append(prop)
 prop_list = sorted(list(set(prop_list)))
-
+prop
 class_list = []
 for s,p,o in g.triples( (None,  RDF.type, None) ):
    class_list.append(o)
