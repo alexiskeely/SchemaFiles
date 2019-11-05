@@ -1,8 +1,0 @@
-Validation Report
-Conforms: False
-Results (1):
-Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
-	Severity: sh:Violation
-	Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:path [ sh:inversePath owl:sameAs ] ]
-	Focus Node: <http://viaf.org/viaf/13474889>
-	Result Path: [ sh:inversePath owl:sameAs ]
