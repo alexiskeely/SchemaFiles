@@ -1,0 +1,58 @@
+@prefix ex: <http://example.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:AggregationShape a sh:NodeShape ;
+    sh:property [ sh:name "hasView" ;
+            sh:path <http://www.europeana.eu/schemas/edm/hasView> ],
+        [ sh:name "aggregatedCHO" ;
+        sh:minCount 1;
+        sh:maxCount 1;
+        sh:node ex:ProvidedCHO ;
+            sh:path <http://www.europeana.eu/schemas/edm/aggregatedCHO> ],
+        [ sh:name "isShownAt" ;
+            sh:path <http://www.europeana.eu/schemas/edm/isShownAt> ],
+        [ sh:name "rights" ;
+            sh:path <http://www.europeana.eu/schemas/edm/rights> ],
+        [ sh:name "provider" ;
+        sh:minCount 1;
+        sh:maxCount 1;
+            sh:path <http://www.europeana.eu/schemas/edm/provider> ],
+        ex:aggregatedCHOShape,
+        ex:hasViewShape,
+        ex:isShownAtShape,
+        ex:providerShape,
+        ex:rightsShape,
+        ex:typeShape ;
+    sh:targetClass <http://www.openarchives.org/ore/terms/Aggregation> .
+
+ex:DatasetShape a sh:NodeShape ;
+    sh:property [ sh:name "inDataset" ;
+            sh:path <http://rdfs.org/ns/void#inDataset> ],
+        ex:inDatasetShape,
+        ex:typeShape ;
+    sh:targetClass <http://rdfs.org/ns/void#Dataset> .
+
+ex:aggregatedCHOShape a sh:PropertyShape ;
+    sh:path <http://www.europeana.eu/schemas/edm/aggregatedCHO> .
+
+ex:hasViewShape a sh:PropertyShape ;
+    sh:path <http://www.europeana.eu/schemas/edm/hasView> .
+
+ex:inDatasetShape a sh:PropertyShape ;
+    sh:path <http://rdfs.org/ns/void#inDataset> .
+
+ex:isShownAtShape a sh:PropertyShape ;
+    sh:path <http://www.europeana.eu/schemas/edm/isShownAt> .
+
+ex:providerShape a sh:PropertyShape ;
+    sh:path <http://www.europeana.eu/schemas/edm/provider> .
+
+ex:rightsShape a sh:PropertyShape ;
+    sh:path <http://www.europeana.eu/schemas/edm/rights> .
+
+ex:typeShape a sh:PropertyShape ;
+    sh:path rdf:type .

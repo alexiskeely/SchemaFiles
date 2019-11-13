@@ -1,0 +1,249 @@
+@prefix ex: <http://example.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:AgentShape a sh:NodeShape ;
+    sh:property [ sh:name "based_near" ;
+            sh:path <http://xmlns.com/foaf/0.1/based_near> ],
+        [ sh:name "url" ;
+            sh:path <http://schema.org/url> ],
+        ex:altLabelShape,
+        ex:birthDateShape,
+        ex:creativeActivityShape,
+        ex:deathDateShape,
+        ex:descriptionShape,
+        ex:inDigiCollShape,
+        ex:isIdentifiedByAuthorityShape,
+        ex:isReferencedByShape,
+        ex:labelShape,
+        ex:nameShape,
+        ex:noteShape,
+        ex:occupationShape,
+        ex:prefLabelShape,
+        ex:providedLabelShape,
+        ex:sameAsShape ;
+    sh:targetClass <http://purl.org/vra/Agent>,
+        <http://www.europeana.eu/schemas/edm/Agent> .
+
+ex:AggregationShape a sh:NodeShape ;
+    sh:property [ sh:name "aggregatedCHO" ;
+            sh:path <http://www.europeana.eu/schemas/edm/aggregatedCHO> ],
+        [ sh:name "provider" ;
+            sh:path <http://www.europeana.eu/schemas/edm/provider> ],
+        [ sh:name "hasView" ;
+            sh:path <http://www.europeana.eu/schemas/edm/hasView> ],
+        ex:isShownAtShape,
+        ex:rightsShape ;
+    sh:targetClass <http://www.openarchives.org/ore/terms/Aggregation> .
+
+ex:CollectionShape a sh:NodeShape ;
+    sh:property ex:isShownAtShape,
+        ex:titleShape ;
+    sh:targetClass <http://purl.org/dc/dcmitype/Collection> .
+
+ex:ConceptShape a sh:NodeShape ;
+    sh:property [ sh:name "inScheme" ;
+            sh:path <http://www.w3.org/2004/02/skos/core#inScheme> ],
+        ex:providedLabelShape ;
+    sh:targetClass <http://www.w3.org/2004/02/skos/core#Concept> .
+
+ex:DatasetDescriptionShape a sh:NodeShape ;
+    sh:property [ sh:name "primaryTopic" ;
+            sh:path <http://xmlns.com/foaf/0.1/primaryTopic> ],
+        [ sh:name "language" ;
+            sh:path <http://purl.org/dc/terms/language> ],
+        ex:creatorShape,
+        ex:featureShape,
+        ex:issuedShape,
+        ex:licenseShape,
+        ex:publisherShape,
+        ex:titleShape ;
+    sh:targetClass <http://rdfs.org/ns/void#DatasetDescription> .
+
+ex:DatasetShape a sh:NodeShape ;
+    sh:property [ sh:name "hasFormat" ;
+            sh:path <http://purl.org/dc/terms/hasFormat> ],
+        [ sh:name "dataHarvestSource" ;
+            sh:path <https://doi.org/10.6069/uwlib.55.b.2#dataHarvestSource> ],
+        [ sh:name "inDataset" ;
+            sh:path <http://rdfs.org/ns/void#inDataset> ],
+        [ sh:name "classPartition" ;
+            sh:path <http://rdfs.org/ns/void#classPartition> ],
+        ex:creatorShape,
+        ex:descriptionShape,
+        ex:featureShape,
+        ex:issuedShape,
+        ex:licenseShape,
+        ex:publisherShape,
+        ex:titleShape ;
+    sh:targetClass <http://rdfs.org/ns/void#Dataset> .
+
+ex:EventShape a sh:NodeShape ;
+    sh:property [ sh:name "startDate" ;
+            sh:path <http://purl.org/vra/startDate> ],
+        [ sh:name "endDate" ;
+            sh:path <http://purl.org/vra/endDate> ],
+        ex:nameShape ;
+    sh:targetClass <http://purl.org/vra/Event> .
+
+ex:NegativeNumberShape a sh:NodeShape ;
+    sh:property ex:prefLabelShape ;
+    sh:targetClass <https://doi.org/10.6069/uwlib.55.D.1#NegativeNumber> .
+
+ex:OrderNumberShape a sh:NodeShape ;
+    sh:property ex:prefLabelShape ;
+    sh:targetClass <https://doi.org/10.6069/uwlib.55.D.1#OrderNumber> .
+
+ex:OrganizationShape a sh:NodeShape ;
+    sh:property ex:inDigiCollShape,
+        ex:nameShape,
+        ex:providedLabelShape ;
+    sh:targetClass <http://purl.org/vra/Organization> .
+
+ex:PersonShape a sh:NodeShape ;
+    sh:property ex:altLabelShape,
+        ex:birthDateShape,
+        ex:creativeActivityShape,
+        ex:deathDateShape,
+        ex:inDigiCollShape,
+        ex:isIdentifiedByAuthorityShape,
+        ex:isReferencedByShape,
+        ex:labelShape,
+        ex:nameShape,
+        ex:noteShape,
+        ex:occupationShape,
+        ex:prefLabelShape,
+        ex:providedLabelShape,
+        ex:sameAsShape ;
+    sh:targetClass <http://purl.org/vra/Person> .
+
+ex:PhotographersReferenceNumberShape a sh:NodeShape ;
+    sh:property ex:prefLabelShape ;
+    sh:targetClass <https://doi.org/10.6069/uwlib.55.D.1#PhotographersReferenceNumber> .
+
+ex:PlaceShape a sh:NodeShape ;
+    sh:property ex:providedLabelShape ;
+    sh:targetClass <http://www.europeana.eu/schemas/edm/Place> .
+
+ex:RightsStatementShape a sh:NodeShape ;
+    sh:property ex:noteShape,
+        ex:prefLabelShape ;
+    sh:targetClass <http://purl.org/dc/terms/RightsStatement> .
+
+ex:SourceResourceShape a sh:NodeShape ;
+    sh:property [ sh:name "subject" ;
+            sh:path <http://purl.org/dc/terms/subject> ],
+        [ sh:name "type" ;
+            sh:path <http://purl.org/dc/terms/type> ],
+        [ sh:name "contributor" ;
+            sh:path <http://purl.org/dc/terms/contributor> ],
+        [ sh:name "date" ;
+            sh:path <http://purl.org/dc/terms/date> ],
+        [ sh:name "extent" ;
+            sh:path <http://purl.org/dc/terms/extent> ],
+        [ sh:name "pht" ;
+            sh:path <http://id.loc.gov/vocabulary/relators/pht> ],
+        [ sh:name "rightsHolder" ;
+            sh:path <http://purl.org/dc/terms/rightsHolder> ],
+        [ sh:name "spatial" ;
+            sh:path <http://purl.org/dc/terms/spatial> ],
+        [ sh:name "type" ;
+            sh:path <http://purl.org/dc/elements/1.1/type> ],
+        ex:descriptionShape,
+        ex:identifiedByShape,
+        ex:isPartOfShape,
+        ex:titleShape ;
+    sh:targetClass <http://dp.la/about/map/SourceResource> .
+
+ex:TimeSpanShape a sh:NodeShape ;
+    sh:property ex:prefLabelShape,
+        ex:providedLabelShape ;
+    sh:targetClass <http://www.europeana.eu/schemas/edm/TimeSpan> .
+
+ex:WebResourceShape a sh:NodeShape ;
+    sh:property ex:descriptionShape,
+        ex:identifiedByShape,
+        ex:isPartOfShape,
+        ex:rightsShape,
+        ex:titleShape ;
+    sh:targetClass <http://www.europeana.eu/schemas/edm/WebResource> .
+
+ex:altLabelShape a sh:PropertyShape ;
+    sh:path <http://www.w3.org/2004/02/skos/core#altLabel> .
+
+ex:birthDateShape a sh:PropertyShape ;
+    sh:path <http://purl.org/vra/birthDate> .
+
+ex:creativeActivityShape a sh:PropertyShape ;
+    sh:path <http://purl.org/vra/creativeActivity> .
+
+ex:creatorShape a sh:PropertyShape ;
+    sh:path <http://purl.org/dc/terms/creator> .
+
+ex:deathDateShape a sh:PropertyShape ;
+    sh:path <http://purl.org/vra/deathDate> .
+
+ex:featureShape a sh:PropertyShape ;
+    sh:path <http://rdfs.org/ns/void#feature> .
+
+ex:identifiedByShape a sh:PropertyShape ;
+    sh:path <http://id.loc.gov/ontologies/bibframe/identifiedBy> .
+
+ex:isIdentifiedByAuthorityShape a sh:PropertyShape ;
+    sh:path <http://www.loc.gov/mads/rdf/v1#isIdentifiedByAuthority> .
+
+ex:isPartOfShape a sh:PropertyShape ;
+    sh:path <http://purl.org/dc/terms/isPartOf> .
+
+ex:isReferencedByShape a sh:PropertyShape ;
+    sh:path <http://purl.org/dc/terms/isReferencedBy> .
+
+ex:isShownAtShape a sh:PropertyShape ;
+    sh:path <http://www.europeana.eu/schemas/edm/isShownAt> .
+
+ex:issuedShape a sh:PropertyShape ;
+    sh:path <http://purl.org/dc/terms/issued> .
+
+ex:labelShape a sh:PropertyShape ;
+    sh:path rdfs:label .
+
+ex:licenseShape a sh:PropertyShape ;
+    sh:path <http://purl.org/dc/terms/license> .
+
+ex:occupationShape a sh:PropertyShape ;
+    sh:path <http://www.loc.gov/mads/rdf/v1#occupation> .
+
+ex:publisherShape a sh:PropertyShape ;
+    sh:path <http://purl.org/dc/terms/publisher> .
+
+ex:rightsShape a sh:PropertyShape ;
+    sh:path <http://www.europeana.eu/schemas/edm/rights> .
+
+ex:sameAsShape a sh:PropertyShape ;
+    sh:path <http://www.w3.org/2002/07/owl#sameAs> .
+
+ex:inDigiCollShape a sh:PropertyShape ;
+    sh:path <https://doi.org/10.6069/uwlib.55.d.3#inDigiColl> .
+
+ex:noteShape a sh:PropertyShape ;
+    sh:path <http://www.w3.org/2004/02/skos/core#note> .
+
+ex:descriptionShape a sh:PropertyShape ;
+    sh:path <http://purl.org/dc/terms/description> .
+
+ex:nameShape a sh:PropertyShape ;
+    sh:path <http://purl.org/vra/name> .
+
+ex:titleShape a sh:PropertyShape ;
+    sh:path <http://purl.org/dc/terms/title> .
+
+ex:providedLabelShape a sh:PropertyShape ;
+    sh:path <http://dp.la/about/map/providedLabel> .
+
+ex:prefLabelShape a sh:PropertyShape ;
+    sh:path <http://www.w3.org/2004/02/skos/core#prefLabel> .
+
+

@@ -1,0 +1,81 @@
+
+@prefix ex: <http://example.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dpla: <http://dp.la/about/map/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix ldproc: <https://doi.org/10.6069/uwlib.55.b.2#> .
+@prefix plat: <https://doi.org/10.6069/uwlib.55.d.2#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+ex:DatasetShape a sh:NodeShape ;
+    sh:property [ sh:name "inDataset" ;
+    sh:message "Datasets are contained in foaf:Documents" ;
+    sh:class foaf:Document ;
+            sh:path <http://rdfs.org/ns/void#inDataset> ] ;
+    sh:targetClass <http://rdfs.org/ns/void#Dataset> .
+
+ex:OrderNumberShape a sh:NodeShape ;
+    sh:property [ sh:name "prefLabel" ;
+                     sh:severity sh:Warning ;
+            
+            sh:message "Order numbers should have at least one label" ;
+            sh:minCount 1;
+            sh:path <http://www.w3.org/2004/02/skos/core#prefLabel> ] ;
+    sh:targetClass <https://doi.org/10.6069/uwlib.55.D.1#OrderNumber> .
+
+ex:WebResourceShape a sh:NodeShape ;
+    sh:property [ sh:name "title" ;
+                 sh:severity sh:Warning ;
+                sh:message "Web resources should have at least one title" ;
+                sh:minCount 1 ;
+            sh:path <http://purl.org/dc/terms/title> ],
+        [ sh:name "identifiedBy" ;
+          sh:message "Web resources may be identified by OrderNumbers" ;
+        sh:class <https://doi.org/10.6069/uwlib.55.D.1#OrderNumber>;
+            sh:path <http://id.loc.gov/ontologies/bibframe/identifiedBy> ],
+        [ sh:name "description" ;
+            sh:path <http://purl.org/dc/terms/description> ],
+        [ sh:name "rights" ;
+        sh:class dct:RightsStatement ;
+        sh:minCount 0;
+        sh:maxCount 1 ;
+        sh:message "Web resources may have at most 1 rights statement." ;
+            sh:path <http://www.europeana.eu/schemas/edm/rights> ],
+        [ sh:name "isPartOf" ;
+            sh:path <http://purl.org/dc/terms/isPartOf> ] ;
+    sh:targetClass <http://www.europeana.eu/schemas/edm/WebResource> .
+
+## optional properties
+
+ex:descriptionShape a sh:PropertyShape ;
+    sh:path <http://purl.org/dc/terms/description> .
+
+ex:identifiedByShape a sh:PropertyShape ;
+    sh:path <http://id.loc.gov/ontologies/bibframe/identifiedBy> .
+
+ex:inDatasetShape a sh:PropertyShape ;
+    sh:path <http://rdfs.org/ns/void#inDataset> .
+
+ex:isPartOfShape a sh:PropertyShape ;
+    sh:path <http://purl.org/dc/terms/isPartOf> .
+
+ex:prefLabelShape a sh:PropertyShape ;
+    sh:path <http://www.w3.org/2004/02/skos/core#prefLabel> .
+
+ex:rightsShape a sh:PropertyShape ;
+    sh:path <http://www.europeana.eu/schemas/edm/rights> .
+
+ex:titleShape a sh:PropertyShape ;
+    sh:path <http://purl.org/dc/terms/title> .
