@@ -4,38 +4,79 @@
 @prefix sh: <http://www.w3.org/ns/shacl#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ab: <http://learningsparql.com/ns/addressbook#> .
+@prefix bf1: <http://bibframe.org/vocab/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix d: <http://learningsparql.com/ns/data#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dpla: <http://dp.la/about/map/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix http: <http://www.w3.org/2011/http#> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix ldproc: <https://doi.org/10.6069/uwlib.55.b.2#> .
+@prefix plat: <https://doi.org/10.6069/uwlib.55.d.2#> .
 
 ex:AggregationShape a sh:NodeShape ;
-    sh:property [ sh:name "hasView" ;
-            sh:path <http://www.europeana.eu/schemas/edm/hasView> ],
+    sh:nodeKind sh:IRI ;
+    sh:property [
+            sh:name "hasView" ;
+            sh:nodeKind sh:IRI ;
+            sh:class <http://www.europeana.eu/schemas/edm/WebResource> ;
+            sh:path <http://www.europeana.eu/schemas/edm/hasView> ;
+            sh:message "Aggregations should have 0-n values for hasView that is a edm:WebResource" ],
         [ sh:name "aggregatedCHO" ;
         sh:minCount 1;
         sh:maxCount 1;
-        sh:node ex:ProvidedCHO ;
-            sh:path <http://www.europeana.eu/schemas/edm/aggregatedCHO> ],
+        sh:nodeKind sh:IRI ;
+        sh:message "Aggregations should have 1 value for aggregatedCHO that is a edm:providedCHO" ;
+        sh:class <http://www.europeana.eu/schemas/edm/ProvidedCHO> ;
+        sh:path <http://www.europeana.eu/schemas/edm/aggregatedCHO> ],
         [ sh:name "isShownAt" ;
+        sh:class <http://www.europeana.eu/schemas/edm/WebResource> ;
+        sh:minCount 1;
+        sh:maxCount 1;
+        sh:message "Aggregations should have 1 value for isShownAt that is a edm:WebResource" ;
+        sh:nodeKind sh:IRI ;
             sh:path <http://www.europeana.eu/schemas/edm/isShownAt> ],
+
+
         [ sh:name "rights" ;
+        sh:minCount 1;
+        sh:maxCount 1;
+        sh:message "Aggregations should have 1 value for rights that is a dct:RightsStatement" ;
+        sh:class dct:RightsStatement ;
             sh:path <http://www.europeana.eu/schemas/edm/rights> ],
         [ sh:name "provider" ;
         sh:minCount 1;
         sh:maxCount 1;
-            sh:path <http://www.europeana.eu/schemas/edm/provider> ],
-        ex:aggregatedCHOShape,
-        ex:hasViewShape,
-        ex:isShownAtShape,
-        ex:providerShape,
-        ex:rightsShape,
-        ex:typeShape ;
+        sh:message "Aggregations should have 1 value for provider that is a edm:Agent" ;
+        sh:class <http://www.europeana.eu/schemas/edm/Agent> ;
+        sh:path <http://www.europeana.eu/schemas/edm/provider> ] ;
     sh:targetClass <http://www.openarchives.org/ore/terms/Aggregation> .
 
-ex:DatasetShape a sh:NodeShape ;
-    sh:property [ sh:name "inDataset" ;
-            sh:path <http://rdfs.org/ns/void#inDataset> ],
-        ex:inDatasetShape,
-        ex:typeShape ;
-    sh:targetClass <http://rdfs.org/ns/void#Dataset> .
 
+
+ex:DatasetShape a sh:NodeShape ;
+  sh:nodeKind sh:IRI;
+        sh:property [ sh:name "inDataset" ;
+        sh:or ([sh:class void:Dataset] [sh:class foaf:Document]);
+        sh:path <http://rdfs.org/ns/void#inDataset> ] ;
+        sh:targetClass void:Dataset .
+
+
+## re-usable property shapes
+# still fasting.
 ex:aggregatedCHOShape a sh:PropertyShape ;
     sh:path <http://www.europeana.eu/schemas/edm/aggregatedCHO> .
 
@@ -53,6 +94,3 @@ ex:providerShape a sh:PropertyShape ;
 
 ex:rightsShape a sh:PropertyShape ;
     sh:path <http://www.europeana.eu/schemas/edm/rights> .
-
-ex:typeShape a sh:PropertyShape ;
-    sh:path rdf:type .
