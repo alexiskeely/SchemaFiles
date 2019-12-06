@@ -1,0 +1,110 @@
+@prefix ex: <http://example.org/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dpla: <http://dp.la/about/map/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix j.0: <https://doi.org/10.6069/uwlib.55.D.1#> .
+@prefix rel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix ldproc: <https://doi.org/10.6069/uwlib.55.b.2#> .
+@prefix plat: <https://doi.org/10.6069/uwlib.55.d.2#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:ConceptShape a sh:NodeShape ;
+    sh:property [ sh:name "inScheme" ;
+      sh:class skos:ConceptScheme ;
+      sh:path <http://www.w3.org/2004/02/skos/core#inScheme> ],
+      ex:providedLabelShape ;
+    sh:targetClass <http://www.w3.org/2004/02/skos/core#Concept> .
+
+ex:DatasetShape a sh:NodeShape ;
+      sh:nodeKind sh:IRI;
+            sh:property [ sh:name "inDataset" ;
+            sh:or ([sh:class void:Dataset] [sh:class foaf:Document]);
+            sh:path <http://rdfs.org/ns/void#inDataset> ] ;
+            sh:targetClass void:Dataset .
+
+ex:NegativeNumberShape a sh:NodeShape ;
+    sh:property ex:prefLabelShape ;
+    sh:nodeKind sh:BlankNodeOrIRI ;
+    sh:targetClass <https://doi.org/10.6069/uwlib.55.D.1#NegativeNumber> .
+
+ex:PhotographersReferenceNumberShape a sh:NodeShape ;
+    sh:property ex:prefLabelShape ;
+    sh:nodeKind sh:BlankNodeOrIRI ;
+    sh:targetClass <https://doi.org/10.6069/uwlib.55.D.1#PhotographersReferenceNumber> .
+
+ex:PlaceShape a sh:NodeShape ;
+    sh:nodeKind sh:BlankNodeOrIRI ;
+    sh:property [sh:path <http://dp.la/about/map/providedLabel> ;
+    sh:maxCount 1 ;
+    sh:message "Places may have 0-1 provided labels" ;];
+    sh:targetClass <http://www.europeana.eu/schemas/edm/Place> .
+
+ex:SourceResourceShape a sh:NodeShape ;
+    sh:nodeKinf sh:IRI ;
+    sh:property [ sh:name "title" ;
+            sh:datatype rdf:langString ;
+            sh:path <http://purl.org/dc/terms/title> ],
+        [ sh:name "contributor" ;
+        sh:class dct:Agent ;
+        sh:nodeKind sh:IRI ;
+        sh:path <http://purl.org/dc/terms/contributor> ],
+        [ sh:name "type" ;
+        sh:path <http://purl.org/dc/elements/1.1/type> ],
+        [ sh:name "description" ;
+        sh:nodeKind sh:Literal ;
+            sh:path <http://purl.org/dc/terms/description> ],
+        [ sh:name "spatial" ;
+        sh:nodeKind sh:BlankNodeOrIRI ;
+        sh:class dct:Location ;
+        sh:path <http://purl.org/dc/terms/spatial> ],
+        [ sh:name "identifiedBy" ;
+          sh:message "Web resources may be identified by OrderNumbers" ;
+          sh:severity sh:Warning ;
+          sh:or ([sh:class bf:Identifier][sh:class <https://doi.org/10.6069/uwlib.55.D.1#OrderNumber>]) ;
+          sh:path <http://id.loc.gov/ontologies/bibframe/identifiedBy> ],
+        [ sh:name "rightsHolder" ;
+        sh:class dct:Agent;
+        sh:path <http://purl.org/dc/terms/rightsHolder> ],
+        [ sh:name "isPartOf" ;
+          sh:nodeKind sh:BlankNodeOrIRI ;
+          sh:path <http://purl.org/dc/terms/isPartOf> ],
+        [ sh:name "extent" ;
+          sh:class dct:SizeOrDuration;
+          sh:path <http://purl.org/dc/terms/extent> ],
+        [ sh:name "subject" ;
+        sh:nodeKind sh:BlankNodeOrIRI ;
+        sh:path <http://purl.org/dc/terms/subject> ],
+        [ sh:name "pht" ;
+        sh:nodeKind sh:IRI ;
+        sh:path <http://id.loc.gov/vocabulary/relators/pht> ],
+        [ sh:name "type" ;
+         sh:nodeKind sh:IRI ;
+          sh:path <http://purl.org/dc/terms/type> ],
+        [ sh:name "date" ;
+        sh:nodeKind sh:Literal ;
+        sh:path <http://purl.org/dc/terms/date> ] ;
+    sh:targetClass <http://dp.la/about/map/SourceResource> .
+
+ex:TimeSpanShape a sh:NodeShape ;
+    sh:property [sh:path ex:prefLabelShape;
+    sh:datatype xsd:date] ;
+    sh:property ex:providedLabelShape ;
+    sh:targetClass <http://www.europeana.eu/schemas/edm/TimeSpan> .
+
+ex:prefLabelShape a sh:PropertyShape ;
+  sh:datatype rdf:langString ;
+  sh:path <http://www.w3.org/2004/02/skos/core#prefLabel> .
+
+ex:providedLabelShape a sh:PropertyShape ;
+  sh:datatype rdf:langString ;
+  sh:maxCount 1;
+  sh:path <http://dp.la/about/map/providedLabel> .
